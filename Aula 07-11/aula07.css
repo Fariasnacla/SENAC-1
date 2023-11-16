@@ -1,0 +1,49 @@
+html,body{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+* {
+    font-size: 16pt;
+    float: left;
+    display: inline-block;
+    color: #670087;
+    background-color: white;
+    padding: 0;
+    border-radius: 10px;
+    border: 0;
+    margin: 0;
+}
+
+.btn-menu:hover {
+    background-color: #820087;
+    color: white;
+
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+#topo{
+    border-bottom: 5px solid #670087;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 30mm;
+    background: #DCBFFF;
+}
+
+.btn-menu{
+    padding: 5mm;
+}
+
+#row{
+    margin: 50px;
+   
+}
