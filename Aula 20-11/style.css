@@ -1,0 +1,60 @@
+:root{
+    --bg-div-02: linear-gradient(red, blue);
+    --button-small: 2mm;
+    --button-medium: 4mm;
+    --button-large: 10mm;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#container {
+    width: 1000px;
+
+}
+
+#container div{
+    width: 300px;
+    border: 1px solid #999;
+    flex-shrink: 1;
+}
+
+#container #d-01 {
+    background-color: darkolivegreen;
+    transition: 1s;
+}
+
+#container #d-01:hover {
+    background-color: darkgreen;
+    border-radius: 100%;
+}
+
+#container #d-02{
+    background: var(--bg-div-02);
+}
+
+.small{
+    padding: var(--button-small);
+
+}
+
+.medium{
+    padding: var(--button-medium);
+}
+
+.large{
+    padding: var(--button-large);
+}
+
