@@ -1,0 +1,40 @@
+.container-fluid {
+    background-color: rgb(253, 253, 253);
+    
+}
+
+.container {
+    background-color: black;
+}
+
+.row {
+    background-color: rgb(43, 226, 43)6, 165);
+}
+
+.col-6 {
+    color: aliceblue;
+    background-color: black;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+
+}
+
+.col-12 {
+    color: aliceblue;
+    background-color: chartreuse;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(255, 136, 0);
+
+}
+
+.top {
+    background-color: darkblue;
+
+}
+
+.footer {
+    background-color: blue;
+
+}
